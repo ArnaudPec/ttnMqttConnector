@@ -1,0 +1,21 @@
+{
+    "Ttn": {
+        "Host": "thethings.network",
+        "Port": 1883,
+        "AppID" : "changeme",
+        "AppKey" : "metoo",
+        "RegionalHandler" : "eu",
+        "Topic" : "+/devices/+/up",
+        "ClientID" : "clientid"
+    },
+    "Broker": {
+        "Host": "192.168.0.10",
+        "Port": 1883,
+        "ClientID" : "clientid",
+        "TopicPrefix": "iot",
+        "TopicSuffix": "o",
+        "qos": 0,
+        "cleansess": false,
+        "ReconnectDelay" : 4
+    }
+}
